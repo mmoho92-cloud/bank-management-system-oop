@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{a7600ddb-5b32-4653-b2d0-fadb6c80b8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens">
+      <UniqueIdentifier>{de61373c-cfa9-474d-871f-3d2eb20a9c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{2eebc910-4bc1-48d4-af13-1c3dbc5a8f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\menues">
+      <UniqueIdentifier>{100f8c9d-09f0-458f-9f47-190784157bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\user">
+      <UniqueIdentifier>{bf6d3079-2c99-49e9-aab4-432904ebf524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\bank_client">
+      <UniqueIdentifier>{8c76c39b-0438-40ab-90bc-18a2fac2601f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\currency">
+      <UniqueIdentifier>{fa9162f7-68d0-400d-9c81-bac49b1e29eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank-Management-System(OOP).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cls_currency.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_user.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_person.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bank_client.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_date.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_my_string.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_period.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_input_validation.h">
+      <Filter>Header Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_screen.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_currency_exchange_main_menue.h">
+      <Filter>Header Files\screens\menues</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_login_register_unused.h">
+      <Filter>Header Files\screens\menues</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_transactions_menue.h">
+      <Filter>Header Files\screens\menues</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_mange_users_menue.h">
+      <Filter>Header Files\screens\menues</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_main_screen.h">
+      <Filter>Header Files\screens\menues</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_add_user_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_delete_user_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_find_user_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_login_register_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_login_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_user_list_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_update_user_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_transfer_log_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_transfer_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_add_new_client_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_client_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_delete_client_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_diposit_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_find_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_update_client_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_withdraw_screen.h">
+      <Filter>Header Files\screens\bank_client</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_currency_calculator_screen.h">
+      <Filter>Header Files\screens\currency</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_find_currency_screen.h">
+      <Filter>Header Files\screens\currency</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_list_currencies_screen.h">
+      <Filter>Header Files\screens\currency</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_total_balance_screen.h">
+      <Filter>Header Files\screens\currency</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_update_currency_rate_screen.h">
+      <Filter>Header Files\screens\currency</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_employe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_programer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
